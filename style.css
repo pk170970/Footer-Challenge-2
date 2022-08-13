@@ -1,0 +1,168 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+footer{
+    width: 100vw;
+    height: 50vh;
+    background-color: rgb(247, 247, 247);
+    margin-top: 360px;
+}
+/* -------------------------top-------------------- */
+.top{
+    width: 100vw;
+    height: 15vh;
+    background-color: rgb(15, 9, 105);
+    display: flex;
+    color: rgb(255, 255, 255);
+    justify-content: space-around;
+    align-items: center;
+}
+/* ------------logo----------- */
+.logo-details{
+    width: 100px;
+    height: 50px;
+    margin-left: -372px;
+    text-align: center;
+}
+.logo-details i{
+    margin: 0px 5px;
+    font-size: 30px;
+}
+.logo-details span{
+    font-size: 20px;
+   position: absolute;
+   font-size: 30px;
+}
+
+/* ----------media icons--------- */
+.media-icons{
+    margin-right: -250px;
+}
+.media-icons .fab{
+    padding: 0px 7px;
+    color: rgb(255, 255, 255);
+    border-radius: 100%;
+    width: 40px;
+    height: 40px;
+    text-align: center;
+    line-height: 2.5;
+    margin:7px;
+}
+.media-icons .fa-facebook-f{
+    background-color: rgb(140, 208, 234);
+    
+}
+.media-icons .fa-twitter{
+    background-color: rgb(42, 182, 238);
+    padding-left: 8px;
+}
+.media-icons .fa-instagram{
+    background-color: rgb(243, 73, 192);
+}
+.media-icons .fa-instagram{
+    background-color: rgb(243, 73, 192);
+    padding-left: 8px;
+}
+.media-icons .fa-linkedin-in{
+    background-color: rgb(3, 115, 152);
+    padding-left: 8px;
+}
+.media-icons .fa-youtube{
+    background-color: rgb(248, 26, 26);
+    padding-left: 6px;
+}
+
+/* -----------------------------------link boxes--------------------- */
+.link-boxes{
+    background-color: rgb(15, 9, 105);
+    width: 100vw;
+    height: 28vh;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 1px;
+}
+
+
+.link-boxes li{
+    list-style: none;
+}
+.link-boxes a{
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+}
+.link_name{
+    font-size: 20px;
+    font-weight: bolder;
+    margin: 20px 0;
+    color: rgb(255, 255, 255);
+    text-decoration:dotted;
+}
+.link_name::before{
+    content: "";
+    width: 2.8%;
+    height: 0.4vh;
+    position: absolute;
+    background-color:  rgb(255, 255, 255);
+    margin-top: 25px;
+    margin-left: 0px;
+}
+.box{
+    /* background-color: red; */
+    padding: 10px;
+    margin: 0 20px;
+    height: 26vh;
+}
+.box li {
+    margin-top: 10px;
+}
+.input-box{
+    margin-right: 20px;
+}
+.input-box input{
+    width: 16vw;
+    height: 6vh;
+    background-color: transparent;
+    color:  rgb(255, 255, 255);
+    padding: 10px;
+    font-size: 15px;
+    font-weight: bold;
+    border: 3px solid rgb(255, 255, 255);
+    border-radius: 5px;
+}
+.input-box input[value="Subscribe"]{
+    background-color: rgba(254, 244, 244, 0.915);
+    color:  rgb(15, 9, 105);
+    font-weight: bolder;
+    font-size: 18px;
+}
+.input-box input:focus{
+    border: none;
+    
+}
+/* ------------------------------footer bottom details------------ */
+.bottom-details{
+    background-color: rgb(4 2 40);
+    height: 7vh;
+}
+.bottom_text{
+    display: flex;
+    justify-content: space-between;
+    margin-left: 100px;
+    color:  rgb(255, 255, 255);;
+    padding: 10px;
+    margin-right:120px;
+}
+.copyright_text a{
+    text-decoration: none;
+    color: rgb(208, 204, 204);
+    padding: 5px;
+    }
+.policy_terms a{
+    text-decoration: none;
+    color: rgb(208, 204, 204);
+    padding: 10px;
+}
