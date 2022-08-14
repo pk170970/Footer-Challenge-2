@@ -41,6 +41,10 @@ footer{
 .media-icons{
     margin-right: -250px;
 }
+.media-icons i:hover{
+    transform: scale(1.12);
+}
+
 .media-icons .fab{
     padding: 0px 7px;
     color: rgb(255, 255, 255);
@@ -89,11 +93,28 @@ footer{
 
 .link-boxes li{
     list-style: none;
+    transition: transform 0.1s ease;
 }
+.link-boxes li:hover{
+    transform: scale(1.12);
+    cursor: pointer;
+    color: #F81A1A;
+}
+
 .link-boxes a{
     text-decoration: none;
     color: rgb(255, 255, 255);
 }
+
+.link-boxes a:hover{
+    color: antiquewhite;
+    background-color: black;
+    padding: 5px 5px;
+    border-radius: 6px;
+    border: 2px solid white;
+    cursor: pointer;
+}
+
 .link_name{
     font-size: 20px;
     font-weight: bolder;
